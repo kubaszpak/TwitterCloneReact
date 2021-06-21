@@ -1,0 +1,57 @@
+html, body {
+  background-color: #253341 !important;
+  color: white !important;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  max-width: 600px;
+  width: 75%;
+}
+
+.white {
+ color: white !important;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: #253341 !important;
+  color: white !important;
+  margin-bottom: 15px !important;
+}
+
+.card a{
+  color: white !important;
+}
+
+.comment {
+  color: rgb(209, 209, 209) !important;
+}
+
+.button-delete {
+  float: right;
+}
+
+.ant-comment-actions li span {
+  color: rgba(182, 182, 182, 0.63) !important;
+}
